@@ -1,16 +1,11 @@
-﻿@model MoviesClub.ViewModels.RandomMovieViewModel
+﻿@model MoviesClub.ViewModels.MovieCustomerViewModels
 
 @{
-    ViewBag.Title = "Random";
+    ViewBag.Title = "Customer";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@{
-    var className = Model.Customers.Count > 1 ? "popular" : null;
-}
-
-
-<h2 class="@className">@Model.Movie.Name</h2>
+<h2>Customers</h2>
 
 @if (Model.Customers.Count == 0)
 {
@@ -25,7 +20,6 @@ else
         }
     </ul>
 }
-
 
 
 
