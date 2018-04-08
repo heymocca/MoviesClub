@@ -79,3 +79,7 @@ E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\Microsoft.Owin.Security.Tw
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.dll
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.pdb
+E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.csprojResolveAssemblyReference.cache
+E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.Migrations.InitialModel.resources
+E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.csproj.GenerateResource.Cache
+E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.Migrations.AddIsSubscribedToCustomer.resources

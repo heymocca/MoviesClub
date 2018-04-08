@@ -8,7 +8,8 @@ namespace MoviesClub.ViewModels
 {
     public class MovieCustomerViewModels
     {
-        public Movie Movie { get; set; }
+        //public Movie Movie { get; set; }
+        public List<Movie> Movies { get; set; }
         public List<Customer> Customers { get; set; }
     }
 }

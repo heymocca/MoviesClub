@@ -39,7 +39,9 @@ namespace MoviesClub.Controllers
             //   new Movie {Name = "Come to my world"} 
             //};
 
-            var movie = new Movie() { Name = "Shrek!" };
+            //var movie = new Movie() { Name = "Shrek!" };
+
+           
 
             var customers = new List<Customer>
             {
@@ -49,12 +51,29 @@ namespace MoviesClub.Controllers
 
             var viewModel = new MovieCustomerViewModels
             {
-                Movie = movie,
                 Customers = customers
             };
 
             return View(viewModel);
         }
+
+        [Route("Movies")]
+        public ActionResult Movie()
+        {
+            var movies = new List<Movie>
+            {
+                new Movie {Name = "Shrek!"},
+                new Movie {Name = "The darkest hour!"},
+            };
+
+            var viewModel = new MovieCustomerViewModels
+            {
+                Movies = movies
+            };
+
+            return View(viewModel);
+        }
+
 
         //public ActionResult Edit(int id)
         //{
