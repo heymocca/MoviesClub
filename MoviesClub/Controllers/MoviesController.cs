@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using MoviesClub.Models;
-using MoviesClub.ViewModels;
 
 namespace MoviesClub.Controllers
 {
@@ -25,54 +24,54 @@ namespace MoviesClub.Controllers
         //        Movie = movie,
         //        Customers = customers
         //    };
-            
+
         //    return View(viewModel);
 
         //}
 
-        [Route("Customers")]
-        public ActionResult Customer()
-        {
-            //var movies = new List<Movie>
-            //{
-            //   new Movie {Name = "The darkest hour"},
-            //   new Movie {Name = "Come to my world"} 
-            //};
+        //[Route("Customers")]
+        //public ActionResult Customer()
+        //{
+        //    //var movies = new List<Movie>
+        //    //{
+        //    //   new Movie {Name = "The darkest hour"},
+        //    //   new Movie {Name = "Come to my world"} 
+        //    //};
 
-            //var movie = new Movie() { Name = "Shrek!" };
+        //    //var movie = new Movie() { Name = "Shrek!" };
 
-           
 
-            var customers = new List<Customer>
-            {
-                new Customer {Name = "James"},
-                new Customer {Name = "Kelly"}
-            };
 
-            var viewModel = new MovieCustomerViewModels
-            {
-                Customers = customers
-            };
+        //    var customers = new List<Customer>
+        //    {
+        //        new Customer {Name = "James"},
+        //        new Customer {Name = "Kelly"}
+        //    };
 
-            return View(viewModel);
-        }
+        //    var viewModel = new MovieCustomerViewModels
+        //    {
+        //        Customers = customers
+        //    };
 
-        [Route("Movies")]
-        public ActionResult Movie()
-        {
-            var movies = new List<Movie>
-            {
-                new Movie {Name = "Shrek!"},
-                new Movie {Name = "The darkest hour!"},
-            };
+        //    return View(viewModel);
+        //}
 
-            var viewModel = new MovieCustomerViewModels
-            {
-                Movies = movies
-            };
+        //[Route("Movies")]
+        //public ActionResult Movie()
+        //{
+        //    var movies = new List<Movie>
+        //    {
+        //        new Movie {Name = "Shrek!"},
+        //        new Movie {Name = "The darkest hour!"},
+        //    };
 
-            return View(viewModel);
-        }
+        //    var viewModel = new MovieCustomerViewModels
+        //    {
+        //        Movies = movies
+        //    };
+
+        //    return View(viewModel);
+        //}
 
 
         //public ActionResult Edit(int id)
@@ -97,5 +96,19 @@ namespace MoviesClub.Controllers
         //    return Content(year + "/" + month);
         //}
 
+        public ViewResult Index()
+        {
+            var movies = GetMovies();
+            return View(movies);
+        }
+
+        public IEnumerable<Movie> GetMovies()
+        {
+            return new List<Movie>
+            {
+                new Movie { Id = 1, Name = "Shrek"},
+                new Movie { Id = 2, Name = "Start War"}
+            };
+        }
     }
 }

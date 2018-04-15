@@ -85,3 +85,4 @@ E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.csproj.Ge
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.Migrations.AddIsSubscribedToCustomer.resources
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.Migrations.AddMembershipType.resources
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.Migrations.PopulateMembershipTypes.resources
+E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.Migrations.ApplyAnotationsToCustomerName.resources
