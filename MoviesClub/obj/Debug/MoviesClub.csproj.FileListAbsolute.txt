@@ -48,6 +48,8 @@ E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\System.Web.WebPages.Deploy
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\System.Web.WebPages.dll
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\System.Web.WebPages.Razor.dll
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\WebGrease.dll
+E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\EntityFramework.xml
+E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\EntityFramework.SqlServer.xml
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\Microsoft.AI.DependencyCollector.xml
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\Microsoft.AI.ServerTelemetryChannel.xml
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\Microsoft.AI.Web.xml
@@ -63,8 +65,6 @@ E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\System.Web.WebPages.Deploy
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\System.Web.WebPages.Razor.xml
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\Antlr3.Runtime.pdb
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\Newtonsoft.Json.xml
-E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\EntityFramework.xml
-E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\EntityFramework.SqlServer.xml
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\Microsoft.AspNet.Identity.Core.xml
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\Microsoft.AspNet.Identity.Owin.xml
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\Microsoft.AspNet.Identity.EntityFramework.xml
@@ -77,12 +77,13 @@ E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\Microsoft.Owin.Security.OA
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\Microsoft.Owin.Security.Google.xml
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\Microsoft.Owin.Security.Twitter.xml
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.dll
-E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.pdb
-E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.csprojResolveAssemblyReference.cache
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.Migrations.InitialModel.resources
-E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.csproj.GenerateResource.Cache
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.Migrations.AddIsSubscribedToCustomer.resources
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.Migrations.AddMembershipType.resources
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.Migrations.PopulateMembershipTypes.resources
 E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.Migrations.ApplyAnotationsToCustomerName.resources
+E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.Migrations.AddMembershipTypeName.resources
+E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.Migrations.AddMembershipType1.resources
+E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.csproj.GenerateResource.Cache
+E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.dll
+E:\Projects2018\ProjectList\MoviesClub\MoviesClub\obj\Debug\MoviesClub.pdb
